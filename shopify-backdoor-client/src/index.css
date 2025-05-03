@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.table-xs :not(thead):not(tfoot) tr {
+    font-size: 0.9rem;
+}
+.table :where(thead, tfoot) {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
